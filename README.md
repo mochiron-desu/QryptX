@@ -45,7 +45,7 @@ QryptX is an advanced honeypot system that simulates multiple network services t
 
 4. Run the honeypot:
    ```
-   python qryptx.py
+   python3 QryptX.py
    ```
 
 ## Port Configuration
