@@ -69,6 +69,7 @@ Access the dashboard by navigating to `http://localhost:8080` in your web browse
 - Detailed logs of each attack
 - Visual representations of attack patterns
 - Geographic distribution of attackers
+
 ![WhatsApp Image 2025-04-08 at 02 41 42_6770f113](https://github.com/user-attachments/assets/8808ad0c-c16d-47de-b2f7-cf2617deeb9e)
 
 ## Telegram Integration
