@@ -31,7 +31,7 @@ QryptX is an advanced honeypot system that simulates multiple network services t
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/qryptx.git
+   git clone https://github.com/fiyanmehfil/qryptx.git
    cd qryptx
    ```
 
