@@ -61,7 +61,7 @@ QryptX runs the following services by default:
 
 ## Dashboard
 
-Access the dashboard by navigating to `http://your-server-ip:8080` in your web browser. The dashboard provides:
+Access the dashboard by navigating to `http://localhost:8080` in your web browser. The dashboard provides:
 
 - Real-time statistics on attack attempts
 - Detailed logs of each attack
