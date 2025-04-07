@@ -45,8 +45,11 @@ QryptX is an advanced honeypot system that simulates multiple network services t
 
 4. Run the honeypot:
    ```
-   python3 QryptX.py
+   sudo $(which python3) QryptX.py
    ```
+![WhatsApp Image 2025-04-08 at 02 40 23_3c452913](https://github.com/user-attachments/assets/f177cf81-1864-4cdc-b6b4-8e767ec2f215)
+
+   
 
 ## Port Configuration
 
@@ -66,13 +69,21 @@ Access the dashboard by navigating to `http://localhost:8080` in your web browse
 - Detailed logs of each attack
 - Visual representations of attack patterns
 - Geographic distribution of attackers
+![WhatsApp Image 2025-04-08 at 02 41 42_6770f113](https://github.com/user-attachments/assets/8808ad0c-c16d-47de-b2f7-cf2617deeb9e)
 
 ## Telegram Integration
 
 QryptX integrates with Telegram to provide real-time alerts and command functionality:
 
+<img src="https://github.com/user-attachments/assets/c5e7fbdb-f76d-4316-ac25-82cfada31c9e" alt="WhatsApp Image 2025-04-02 at 04 42 29_7658c9db" width="22%"/>
+
+
+
 - `/stats`: Get current honeypot statistics
-- `/attacks`: View recent attack attempts
+<img src="https://github.com/user-attachments/assets/fbcb55c2-ba56-4504-be1d-64a64ba8ed10" alt="WhatsApp Image 2025-04-02 at 04 42 29_a3e777c5" width="22%"/>
+
+- `/attacks`: View recent attac k attempts
+<img src="https://github.com/user-attachments/assets/a0d9a534-3c5e-405e-be98-97f3f0bc1224" alt="WhatsApp Image 2025-04-02 at 04 42 29_44256652" width="22%"/>
 
 ## Security Features
 
@@ -93,6 +104,12 @@ All attack data is:
 
 ## Fake Services
 
+### SSH Server
+- Simulates a Linux environment
+- Provides a fake file system with common directories
+- Implements basic shell commands (ls, cd, cat, etc.)
+- Detects privilege escalation attempts
+
 ### HTTP Server
 - Simulates a corporate login portal
 - Detects SQL injection attempts
@@ -105,12 +122,6 @@ All attack data is:
 ### SMTP Server
 - Simulates an email server
 - Captures email content and authentication attempts
-
-### SSH Server
-- Simulates a Linux environment
-- Provides a fake file system with common directories
-- Implements basic shell commands (ls, cd, cat, etc.)
-- Detects privilege escalation attempts
 
 ## Attack Detection
 
@@ -132,6 +143,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 QryptX is designed for educational and defensive security research only. Users must ensure they comply with all applicable laws and regulations when deploying this honeypot. Do not deploy on production systems without understanding the potential implications.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
