@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qryptx"
+version = "0.1.0"
+description = "Post-Quantum Cryptography Honeypot"
+requires-python = ">=3.8"
+dependencies = [
+    "paramiko>=3.4.0",
+    "pyOpenSSL>=24.0.0",
+    "pycryptodome>=3.19.1",
+    "python-telegram-bot>=20.7",
+    "pyfiglet>=1.0.2",
+    "pyTelegramBotAPI>=4.15.2",
+    "liboqs-python @ git+https://github.com/open-quantum-safe/liboqs-python.git"
+]
+
+[tool.setuptools]
+packages = ["qryptx"]
